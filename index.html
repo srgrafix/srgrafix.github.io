@@ -13,7 +13,8 @@
             padding: 0px;
             height: 100%;
             scroll-behavior: smooth;
-            background-color: rgb(27, 82, 234);
+            background: #16164B;
+
         }
 
         body{
@@ -21,22 +22,20 @@
             margin: 0px;
             padding: 0px;
             height: 100%;
-            background-color: rgb(27, 82, 234);
-            
-
-     
+            background-color: #16164B;
         }
 
         .bgimage{
             display: block;
             position: relative;
-            background-image: url(images/bg.jpg);
+            background: -webkit-linear-gradient(to right, #16164B, #0d30cc); /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to top,  #16164B, #0d30cc ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
             background-position: center;
             background-repeat: no-repeat;
             background-size:cover;
-            top: -10%;
+            top: 0%;
             left: 0%;
-            height: 1500%;
+            height: 250%;
             width: 100%;
             padding: 0px;
             margin: 0px;
@@ -70,6 +69,11 @@
 
        }
 
+       button{
+        background-color: #152166;
+        border: none;
+
+       }
         button2{
             display: none;
             position: fixed;
@@ -102,7 +106,7 @@
         .textbox{
             position: absolute;
             align-items: center;
-            width: 90%;
+            width: 80%;
             height: 20%;
             top: 145%;
             left: 50%;
@@ -162,8 +166,7 @@
     <div class="textbox">
         <p>Hi, My name is Simo. 
             I'm a Front-End web developer based in Finland.
-            I mainly focus on HTML and CSS with a little spice of JavaScript
-            although I'm not afraid to venture in to different avenues of creativity.
+            I mainly focus on HTML, CSS and JavaScript.
 
         </p>
     </div>
